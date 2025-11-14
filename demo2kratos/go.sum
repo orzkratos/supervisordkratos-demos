@@ -50,8 +50,8 @@ github.com/rogpeppe/go-internal v1.14.1 h1:UQB4HGPB6osV0SQTLymcB4TgvyWu6ZyliaW0t
 github.com/rogpeppe/go-internal v1.14.1/go.mod h1:MaRKkUm5W0goXpeCfT7UZI6fk/L7L7so1lCWt35ZSgc=
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
-github.com/yyle88/done v1.0.27 h1:FaCbL0hUpsZ8DH4FLbDnjQDIYjvf0JgNxGVi6ZoDhGg=
-github.com/yyle88/done v1.0.27/go.mod h1:7fEv2NuCKW/XA/6a5BIwgX+A8MqYFtyTJMbDJdiDZrM=
+github.com/yyle88/done v1.0.28 h1:ZlC5ENTHAR0CQm19t1WhpbtKsKNPwsrXRtDewFsq4HA=
+github.com/yyle88/done v1.0.28/go.mod h1:dc0SzvQkX4NLEIz2shgYvETprQ6c0VZb+DCDtIi9n2Q=
 github.com/yyle88/must v0.0.26 h1:bxUtYq4S5e7FjdQsAVCXPNZOA8YVItnQF+VXVqCSrps=
 github.com/yyle88/must v0.0.26/go.mod h1:SO20wxYD9sahO1crPOPlWxwJIyEx0qGtq1K/zgy/8UU=
 github.com/yyle88/mutexmap v1.0.15 h1:vqwtvomfzddcuBNg8hofWnILRFK2STJhWU7AufuNS50=

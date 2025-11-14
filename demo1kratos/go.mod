@@ -5,7 +5,7 @@ go 1.25.0
 require (
 	github.com/go-kratos/kratos/v2 v2.9.1
 	github.com/google/wire v0.7.0
-	github.com/yyle88/done v1.0.27
+	github.com/yyle88/done v1.0.28
 	github.com/yyle88/must v0.0.26
 	github.com/yyle88/rese v0.0.11
 	github.com/yyle88/runpath v1.0.24

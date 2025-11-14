@@ -16,8 +16,8 @@ github.com/rogpeppe/go-internal v1.13.1 h1:KvO1DLK/DRN07sQ1LQKScxyZJuNnedQ5/wKSR
 github.com/rogpeppe/go-internal v1.13.1/go.mod h1:uMEvuHeurkdAXX61udpOXGD/AzZDWNMNyH2VO9fmH0o=
 github.com/stretchr/testify v1.11.1 h1:7s2iGBzp5EwR7/aIZr8ao5+dra3wiQyKjjFuvgVKu7U=
 github.com/stretchr/testify v1.11.1/go.mod h1:wZwfW3scLgRK+23gO65QZefKpKQRnfz6sD981Nm4B6U=
-github.com/yyle88/done v1.0.27 h1:FaCbL0hUpsZ8DH4FLbDnjQDIYjvf0JgNxGVi6ZoDhGg=
-github.com/yyle88/done v1.0.27/go.mod h1:7fEv2NuCKW/XA/6a5BIwgX+A8MqYFtyTJMbDJdiDZrM=
+github.com/yyle88/done v1.0.28 h1:ZlC5ENTHAR0CQm19t1WhpbtKsKNPwsrXRtDewFsq4HA=
+github.com/yyle88/done v1.0.28/go.mod h1:dc0SzvQkX4NLEIz2shgYvETprQ6c0VZb+DCDtIi9n2Q=
 github.com/yyle88/erero v1.0.24 h1:yroawlW4IohY4bK4SonMBNI2tlZftPjtfhYYBtBfCxw=
 github.com/yyle88/erero v1.0.24/go.mod h1:KoTJmpyuKtQddt1QEQidwmewilCWwEH8rn5NsIAZ8XE=
 github.com/yyle88/eroticgo v0.0.5 h1:M+FRXhxc7iocIYNBK47xs3JrbXiyz98fmjeD7P2Yf0I=
