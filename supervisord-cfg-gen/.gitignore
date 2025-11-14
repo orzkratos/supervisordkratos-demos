@@ -1,0 +1,8 @@
+# Build output
+# 构建产物
+/supervisord-cfg-gen
+
+# 目标配置
+# Target Config
+/config.conf
+
