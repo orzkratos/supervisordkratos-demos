@@ -1,7 +1,7 @@
 [![GitHub Workflow Status (branch)](https://img.shields.io/github/actions/workflow/status/orzkratos/demokratos/release.yml?branch=main&label=BUILD)](https://github.com/orzkratos/demokratos/actions/workflows/release.yml?query=branch%3Amain)
 [![GoDoc](https://pkg.go.dev/badge/github.com/orzkratos/demokratos)](https://pkg.go.dev/github.com/orzkratos/demokratos)
 [![Coverage Status](https://img.shields.io/coveralls/github/orzkratos/demokratos/main.svg)](https://coveralls.io/github/orzkratos/demokratos?branch=main)
-[![Supported Go Versions](https://img.shields.io/badge/Go-1.25+-lightgrey.svg)](https://github.com/orzkratos/demokratos)
+[![Supported Go Versions](https://img.shields.io/badge/Go-1.25+-lightgrey.svg)](https://go.dev/)
 [![GitHub Release](https://img.shields.io/github/release/orzkratos/demokratos.svg)](https://github.com/orzkratos/demokratos/releases)
 [![Go Report Card](https://goreportcard.com/badge/github.com/orzkratos/demokratos)](https://goreportcard.com/report/github.com/orzkratos/demokratos)
 
@@ -119,6 +119,7 @@ go test -v -run TestGenerateXChanges # Generate demos-toolchain-trees.md
 |:-----------:|:---------------------------------------------------:|
 |   ast-go    |    https://github.com/orzkratos/astkratos-demos     |
 |    auth     |    https://github.com/orzkratos/authkratos-demos    |
+|   config    |   https://github.com/orzkratos/configkratos-demos   |
 |  ebz-must   |    https://github.com/orzkratos/ebzkratos-demos     |
 | spf13/cobra |   https://github.com/orzkratos/cobrakratos-demos    |
 |    gorm     |    https://github.com/orzkratos/gormkratos-demos    |
@@ -129,7 +130,7 @@ go test -v -run TestGenerateXChanges # Generate demos-toolchain-trees.md
 |    trace    |   https://github.com/orzkratos/tracekratos-demos    |
 |  unittest   |    https://github.com/orzkratos/testkratos-demos    |
 | vue3-client |    https://github.com/orzkratos/vue3kratos-demos    |
-|    wire     |   https://github.com/orzkratos/wire2kratos-demos    |
+|    wire     |   https://github.com/orzkratos/wirekratos-demos    |
 |     zap     |    https://github.com/orzkratos/zapkratos-demos     |
 | zap-zh-hans |   https://github.com/orzkratos/zapzhkratos-demos    |
 |   migrate   |  https://github.com/orzkratos/migratekratos-demos   |
@@ -137,20 +138,20 @@ go test -v -run TestGenerateXChanges # Generate demos-toolchain-trees.md
 | supervisors | https://github.com/orzkratos/supervisordkratos-demos |
 
 <!-- TEMPLATE (EN) BEGIN: STANDARD PROJECT FOOTER -->
-<!-- VERSION 2025-09-26 07:39:27.188023 +0000 UTC -->
+<!-- VERSION 2025-11-25 03:52:28.131064 +0000 UTC -->
 
 ## 📄 License
 
-MIT License. See [LICENSE](LICENSE).
+MIT License - see [LICENSE](LICENSE).
 
 ---
 
-## 🤝 Contributing
+## 💬 Contact & Feedback
 
 Contributions are welcome! Report bugs, suggest features, and contribute code:
 
-- 🐛 **Found a mistake?** Open an issue on GitHub with reproduction steps
-- 💡 **Have a feature idea?** Create an issue to discuss the suggestion
+- 🐛 **Mistake reports?** Open an issue on GitHub with reproduction steps
+- 💡 **Fresh ideas?** Create an issue to discuss
 - 📖 **Documentation confusing?** Report it so we can improve
 - 🚀 **Need new features?** Share the use cases to help us understand requirements
 - ⚡ **Performance issue?** Help us optimize through reporting slow operations
@@ -171,7 +172,7 @@ New code contributions, follow this process:
 4. **Branch**: Create a feature branch (`git checkout -b feature/xxx`).
 5. **Code**: Implement the changes with comprehensive tests
 6. **Testing**: (Golang project) Ensure tests pass (`go test ./...`) and follow Go code style conventions
-7. **Documentation**: Update documentation to support client-facing changes and use significant commit messages
+7. **Documentation**: Update documentation to support client-facing changes
 8. **Stage**: Stage changes (`git add .`)
 9. **Commit**: Commit changes (`git commit -m "Add feature xxx"`) ensuring backward compatible code
 10. **Push**: Push to the branch (`git push origin feature/xxx`).
