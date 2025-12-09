@@ -12,6 +12,7 @@ Demo projects built with the Go-Kratos framework, serving as the foundation of t
 ---
 
 <!-- TEMPLATE (EN) BEGIN: LANGUAGE NAVIGATION -->
+
 ## CHINESE README
 
 [中文说明](README.zh.md)
@@ -47,6 +48,7 @@ Provides robust orzkratos toolchain:
 - **orzkratos-srv-proto** - Auto syncs service implementations with proto definitions
 
 Setup tools:
+
 ```bash
 make init
 ```
@@ -60,11 +62,13 @@ make orz
 ```
 
 **What it does:**
+
 - ✅ New methods in proto → Auto generates service method stubs
 - ✅ Deleted methods → Converts to unexported functions (preserves logic)
 - ✅ Reordered methods → Auto rearranges service code to match proto sequence
 
 **Workflow example:**
+
 1. Add `CreateUser` method to the proto file
 2. Run `make orz`
 3. Service generates `CreateUser` method stub
@@ -115,27 +119,27 @@ go test -v -run TestGenerateXChanges # Generate demos-toolchain-trees.md
 
 ## Forks
 
-|    demo     |                        repo                         |
-|:-----------:|:---------------------------------------------------:|
-|   ast-go    |    https://github.com/orzkratos/astkratos-demos     |
-|    auth     |    https://github.com/orzkratos/authkratos-demos    |
-|   config    |   https://github.com/orzkratos/configkratos-demos   |
-|  ebz-must   |    https://github.com/orzkratos/ebzkratos-demos     |
-| spf13/cobra |   https://github.com/orzkratos/cobrakratos-demos    |
-|    gorm     |    https://github.com/orzkratos/gormkratos-demos    |
-|  http-cors  |   https://github.com/orzkratos/cors-kratos-demos    |
-|    i18n     |    https://github.com/orzkratos/i18nkratos-demos    |
-|    nacos    |   https://github.com/orzkratos/nacos-kratos-demos   |
-| swagger-doc |   https://github.com/orzkratos/swaggokratos-demos   |
-|    trace    |   https://github.com/orzkratos/tracekratos-demos    |
-|  unittest   |    https://github.com/orzkratos/testkratos-demos    |
-| vue3-client |    https://github.com/orzkratos/vue3kratos-demos    |
-|    wire     |   https://github.com/orzkratos/wirekratos-demos    |
-|     zap     |    https://github.com/orzkratos/zapkratos-demos     |
-| zap-zh-hans |   https://github.com/orzkratos/zapzhkratos-demos    |
-|   migrate   |  https://github.com/orzkratos/migratekratos-demos   |
-|    ping     |    https://github.com/orzkratos/pingkratos-demos    |
-| supervisors | https://github.com/orzkratos/supervisordkratos-demos |
+|    demo     |                         repo                         |
+|:-----------:|:----------------------------------------------------:|
+|   ast-go    |     https://github.com/orzkratos/astkratos-demos     |
+|    auth     |    https://github.com/orzkratos/authkratos-demos     |
+|   config    |   https://github.com/orzkratos/configkratos-demos    |
+|  ebz-must   |     https://github.com/orzkratos/ebzkratos-demos     |
+| spf13/cobra |    https://github.com/orzkratos/cobrakratos-demos    |
+|    gorm     |    https://github.com/orzkratos/gormkratos-demos     |
+|  http-cors  |    https://github.com/orzkratos/cors-kratos-demos    |
+|    i18n     |    https://github.com/orzkratos/i18nkratos-demos     |
+|    nacos    |   https://github.com/orzkratos/nacos-kratos-demos    |
+| swagger-doc |   https://github.com/orzkratos/swaggokratos-demos    |
+|    trace    |    https://github.com/orzkratos/tracekratos-demos    |
+|  unittest   |    https://github.com/orzkratos/testkratos-demos     |
+| vue3-client |    https://github.com/orzkratos/vue3kratos-demos     |
+|    wire     |    https://github.com/orzkratos/wirekratos-demos     |
+|     zap     |     https://github.com/orzkratos/zapkratos-demos     |
+| zap-zh-hans |    https://github.com/orzkratos/zapzhkratos-demos    |
+|   migrate   |   https://github.com/orzkratos/migratekratos-demos   |
+|    ping     |    https://github.com/orzkratos/pingkratos-demos     |
+| supervisord | https://github.com/orzkratos/supervisordkratos-demos |
 
 <!-- TEMPLATE (EN) BEGIN: STANDARD PROJECT FOOTER -->
 <!-- VERSION 2025-11-25 03:52:28.131064 +0000 UTC -->

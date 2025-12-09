@@ -38,7 +38,7 @@ init:
 	go install github.com/go-mate/tago/cmd/tago@latest
 
 	# go-commit: Git commit automation with Go code formatting
-	# go-commit: Git 提交代码的工具
+	# go-commit: Git 提交自动化工具，附带 Go 代码格式化功能
 	go install github.com/go-mate/go-commit/cmd/go-commit@latest
 
 	# clang-format-batch: Batch format proto, cpp and more languages
@@ -266,20 +266,20 @@ merge-step6:
 merge-step7:
 	# 升级所有项目的依赖包到最新版本
 	# depbump: 完整升级根目录依赖
-	# depbump update directs: 依次升级子项目的直接依赖（优先使用 depbump，出错时才用 depbump update directs）
-	depbump || depbump update directs
+	# depbump update -D: 升级直接依赖（-D 是默认的，优先用 depbump，出错时才用 depbump update -D）
+	depbump || depbump update -D
 	# 在项目根目录里进第1个项目，优先尝试完整升级，失败则使用仅直接依赖升级
-	cd demo1kratos && (depbump || depbump update directs)
+	cd demo1kratos && (depbump || depbump update -D)
 	# 在项目根目录里进第2个项目，优先尝试完整升级，失败则使用仅直接依赖升级
-	cd demo2kratos && (depbump || depbump update directs)
+	cd demo2kratos && (depbump || depbump update -D)
 	@echo "✅ 已升级所有依赖包"
 	# 【备注】标准升级命令（使用 go get -u）：
 	# depbump module: 使用 go get -u ./... 升级当前模块依赖
-	# depbump module recursive: 在工作区所有模块中使用 go get -u ./... 升级依赖
+	# depbump module -R: 在工作区所有模块中使用 go get -u ./... 升级依赖
 	# 【备注】智能升级命令（带 Go 版本兼容性检查，防止工具链传染）：
-	# depbump bump: 智能升级直接依赖
-	# depbump bump everyone: 智能升级所有依赖（直接+间接）
-	# depbump bump everyone recursive: 在工作区所有模块中智能升级所有依赖
+	# depbump bump: 智能升级直接依赖（等同于 depbump bump -D）
+	# depbump bump -E: 智能升级所有依赖（直接+间接）
+	# depbump bump -ER: 在工作区所有模块中智能升级所有依赖
 
 merge-step8:
 	# 检查是否有依赖升级的变动，如果有则单独提交
