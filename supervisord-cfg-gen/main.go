@@ -10,7 +10,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/orzkratos/supervisorkratos"
+	"github.com/orzkratos/supervisordkratos"
 	"github.com/yyle88/must"
 	"github.com/yyle88/osexistpath/osmustexist"
 	"github.com/yyle88/runpath"
@@ -27,25 +27,25 @@ const (
 // main generates supervisord config file with demo service configs
 // main 生成包含演示服务配置的 supervisord 配置文件
 func main() {
-	demo1Config := supervisorkratos.NewProgramConfig(
+	demo1Config := supervisordkratos.NewProgramConfig(
 		"demo1kratos",
 		osmustexist.ROOT(runpath.PARENT.UpTo(1, "demo1kratos")),
 		serviceUsername,
 		logRootPath,
 	).WithStartRetries(3).WithAutoRestart(true)
 
-	demo2Config := supervisorkratos.NewProgramConfig(
+	demo2Config := supervisordkratos.NewProgramConfig(
 		"demo2kratos",
 		osmustexist.ROOT(runpath.PARENT.UpTo(1, "demo2kratos")),
 		serviceUsername,
 		logRootPath,
 	).WithStartRetries(3).WithAutoStart(true)
 
-	microservicesGroup := supervisorkratos.NewGroupConfig("microservices").
+	microservicesGroup := supervisordkratos.NewGroupConfig("microservices").
 		AddProgram(demo1Config).
 		AddProgram(demo2Config)
 
-	configContent := supervisorkratos.GenerateGroupConfig(microservicesGroup)
+	configContent := supervisordkratos.GenerateGroupConfig(microservicesGroup)
 
 	// Print generated config to console with dividing marks
 	// 在控制台打印生成的配置，使用分隔标记

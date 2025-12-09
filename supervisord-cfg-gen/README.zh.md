@@ -77,7 +77,7 @@ const (
 
 ## 依赖项
 
-- [github.com/orzkratos/supervisorkratos](https://github.com/orzkratos/supervisorkratos) - Supervisord 配置生成
+- [github.com/orzkratos/supervisordkratos](https://github.com/orzkratos/supervisordkratos) - Supervisord 配置生成
 - [github.com/yyle88/runpath](https://github.com/yyle88/runpath) - 运行时路径操作
 - [github.com/yyle88/zaplog](https://github.com/yyle88/zaplog) - 日志支持
 
@@ -96,6 +96,6 @@ supervisord -c config.conf
 
 ## 项目说明
 
-本项目是 [supervisorkratos-demos](https://github.com/orzkratos/supervisorkratos-demos) 的子项目，用于演示如何使用 supervisorkratos 包生成 supervisord 配置文件。
+本项目是 [supervisordkratos-demos](https://github.com/orzkratos/supervisordkratos-demos) 的子项目，用于演示如何使用 supervisordkratos 包生成 supervisord 配置文件。
 
 更多信息请参考主项目文档。

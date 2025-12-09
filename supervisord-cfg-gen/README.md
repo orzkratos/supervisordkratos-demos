@@ -77,7 +77,7 @@ const (
 
 ## Dependencies
 
-- [github.com/orzkratos/supervisorkratos](https://github.com/orzkratos/supervisorkratos) - Supervisord config generation
+- [github.com/orzkratos/supervisordkratos](https://github.com/orzkratos/supervisordkratos) - Supervisord config generation
 - [github.com/yyle88/runpath](https://github.com/yyle88/runpath) - Runtime path operations
 - [github.com/yyle88/zaplog](https://github.com/yyle88/zaplog) - Logging support
 
@@ -96,6 +96,6 @@ supervisord -c config.conf
 
 ## About
 
-This is a subproject of [supervisorkratos-demos](https://github.com/orzkratos/supervisorkratos-demos), demonstrating how to use the supervisorkratos package to generate supervisord config files.
+This is a subproject of [supervisordkratos-demos](https://github.com/orzkratos/supervisordkratos-demos), demonstrating how to use the supervisordkratos package to generate supervisord config files.
 
 See the main project docs to get more info.

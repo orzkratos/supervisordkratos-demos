@@ -134,7 +134,7 @@ go test -v -run TestGenerateXChanges # 生成 demos-toolchain-trees.md
 | zap-zh-hans |   https://github.com/orzkratos/zapzhkratos-demos    |
 |   migrate   |  https://github.com/orzkratos/migratekratos-demos   |
 |    ping     |    https://github.com/orzkratos/pingkratos-demos    |
-| supervisors | https://github.com/orzkratos/supervisorkratos-demos |
+| supervisors | https://github.com/orzkratos/supervisordkratos-demos |
 
 <!-- TEMPLATE (ZH) BEGIN: STANDARD PROJECT FOOTER -->
 <!-- VERSION 2025-09-26 07:39:27.188023 +0000 UTC -->

@@ -3,12 +3,12 @@ module supervisord-cfg-gen
 go 1.25.0
 
 require (
-	github.com/orzkratos/supervisorkratos v0.0.3
-	github.com/yyle88/must v0.0.26
+	github.com/orzkratos/supervisordkratos v0.0.4
+	github.com/yyle88/must v0.0.28
 	github.com/yyle88/osexistpath v0.0.18
 	github.com/yyle88/runpath v1.0.24
 	github.com/yyle88/zaplog v0.0.27
-	go.uber.org/zap v1.27.0
+	go.uber.org/zap v1.27.1
 )
 
 require (
@@ -17,7 +17,7 @@ require (
 	github.com/yyle88/erero v1.0.24 // indirect
 	github.com/yyle88/mutexmap v1.0.15 // indirect
 	github.com/yyle88/printgo v1.0.6 // indirect
-	github.com/yyle88/rese v0.0.11 // indirect
+	github.com/yyle88/rese v0.0.12 // indirect
 	github.com/yyle88/sure v0.0.42 // indirect
 	github.com/yyle88/syntaxgo v0.0.54 // indirect
 	github.com/yyle88/tern v0.0.9 // indirect
