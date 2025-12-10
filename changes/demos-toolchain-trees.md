@@ -20,7 +20,6 @@ cd supervisord-cfg-gen && tree --noreport
 .
 |-- README.md
 |-- README.zh.md
-|-- config.conf
 |-- go.mod
 |-- go.sum
 `-- main.go
